@@ -1,0 +1,17 @@
+CREATE TABLE assignments (
+ID PRIMARY KEY 
+NAME varchar(255)
+content var char (255)
+day DATE
+chapter integer
+duration integer
+);
+
+CREATE TABLE assignments (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name VARCHAR(255),
+  content TEXT,
+  day INTEGER,
+  chapter INTEGER,
+  duration INTEGER
+);
