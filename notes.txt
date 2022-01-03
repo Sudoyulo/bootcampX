@@ -1,3 +1,4 @@
+TRY:
 CREATE TABLE assignments (
 ID PRIMARY KEY 
 NAME varchar(255)
@@ -7,6 +8,7 @@ chapter integer
 duration integer
 );
 
+REAL:
 CREATE TABLE assignments (
   id SERIAL PRIMARY KEY NOT NULL,
   name VARCHAR(255),
