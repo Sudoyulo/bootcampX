@@ -6,4 +6,9 @@ FROM assistance_requests
 JOIN teachers ON teachers.id = teacher_id
 JOIN students ON students.id = student_id
 JOIN assignments ON assignments.id = assignment_id
-ORDER BY duration;
+ORDER BY duration, assignment;
+--20214 results
+
+
+-- to get 26299 results like compass LINE 8
+--FULL JOIN assignments ON assignments.id = assignment_id
